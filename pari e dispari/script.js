@@ -46,10 +46,12 @@ dispari.addEventListener(
     'click',
 
     function () {
+        const userNum = parseInt(prompt("inserisci un numero da 1 a 5"));
+        const sum = userNum + computerNum;
         if (isEven(sum)) {
             alert("hai perso! il tuo numero: " + userNum + " il computer: " + computerNum + " e la somma é: " + sum);
         } else {
-            alert("hai vinto! il tuo numero: " + userNum + " il computer: " + computerNum + " e la somma é: " + sum);
+            alert("hai vinto! il tuo numero: " + userNum + " il computer: " + computerNum + "  e la somma é: " + sum);
         }
     }
 
