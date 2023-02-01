@@ -11,12 +11,22 @@ function reverseString(str) {
     return newString;
 }
 
+//altro metodo (ciclo normale)
+// function palindroma(str) {
+//     let reverseword = "";
+
+//     for(let i = 0; i < str.length; i++) {
+//         const currentletter = str[I];
+//         reverseword = currentletter + reverseword;
+//     }
+// }
+
 //dichiarazioni constanti
 const userString = prompt("inserisci una parola");
 
 const reverse = reverseString(userString);
 
-//if
+//if (poteva stare anche dentro la funzione per la traccia)
 
 if (userString == reverse) {
     alert("la parola é palindroma")
